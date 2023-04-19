@@ -1,2 +1,2 @@
 # Fitness_Diet_App
-Fitness and Diet App.
+This app was made using Python, PyQt5, and Oracle 11g as Database. 
