@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>471</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>471</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/image_5.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="id">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>160</y>
+      <width>21</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ID:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>190</y>
+      <width>51</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Name:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hire_date">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>220</y>
+      <width>81</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hire Date:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="total">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>250</y>
+      <width>131</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Total Customers:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="salary">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>280</y>
+      <width>121</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Monthly Salary: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wallet">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>310</y>
+      <width>68</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wallet:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="id_blank">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>160</y>
+      <width>191</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_blank">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>190</y>
+      <width>171</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="hire_blank">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>220</y>
+      <width>161</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="total_blank">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>250</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="salary_blank">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>280</y>
+      <width>111</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wallet_blank">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>310</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>540</y>
+      <width>112</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: red;
+    min-width: 80px;
+	color: white;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dialogue">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>460</y>
+      <width>81</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cashout">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>360</y>
+      <width>112</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: green;
+    min-width: 80px;
+	color: white;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+QPushButton:flat {
+    border: none; /* no border for a flat push button */
+}
+
+QPushButton:default {
+    border-color: navy; /* make the default button prominent */
+}</string>
+    </property>
+    <property name="text">
+     <string>Cash Out</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="app.qrc"/>
+ </resources>
+ <connections/>
+</ui>
